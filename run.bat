@@ -1,4 +1,5 @@
 @echo off
+call fetch.bat
 java @user_jvm_args.txt -jar spigot.jar -nogui
-call update.bat
+call push.bat
 pause
